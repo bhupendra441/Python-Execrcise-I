@@ -3,9 +3,9 @@ import random
 player_name=input("enter your name ")
 print("Hi "+player_name+" lets play guessing game")
 guess_track=0
-random_number=random.randint(1,9)
+random_number=random.randint(1,9) #generate a random number
 while True:
-      #generate a random number between 1 and 9 (including both)
+      
     guess_number=input("guess the number between 1 and 9")
     guess_number=int(guess_number)
     guess_track=guess_track+1
